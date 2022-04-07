@@ -1,0 +1,42 @@
+body{
+  background:url(../images/bg_Argyle.jpg);
+}
+
+.topTitle h1{
+  text-align: center;
+}
+
+.topImg{
+  text-align: center;
+}
+
+.center {
+  text-align:center;
+}
+
+ul{
+  list-style-type: circle;
+}
+
+.curry{
+  
+  text-align: center;
+}
+
+.curry img{
+  border: 10px double #ff4500;
+}
+
+.rec caption{
+  color: #ff4500;
+  font-weight: bolder;
+}
+
+.rec td{
+  background-color: #ffffe0;
+}
+
+.rec{
+  width: 280px;
+  border-color: #ff4500;
+}

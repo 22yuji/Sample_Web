@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>質問・感想フォーム</title>
+        <link rel="stylesheet" href="css/setting.css">
+    </head>
+
+    <body>
+        <h1>質問・感想フォーム</h1>
+
+        <div class="formmain">
+            <div class="cnt">
+                <label for="name">氏名</label>
+                <br><br>
+                <input type="text" id="name" name="name" required>
+            </div><br>
+
+            <div class="cnt">
+                <label for="sec">性別</label>
+                <br><br>
+                <div class="btn">
+                    <label><input type="radio" id="sec" name="sec" value="male" checked>男</label>
+                    <label><input type="radio" name="sec" value="female">女</label>
+                </div>
+            </div><br>
+
+            <div class="cnt">
+                <label>年齢</label>
+                <br><br>
+                <select id="age" name="age">
+                    <option value="10" selected >10代</option>
+                    <option value="20">20代</option>
+                    <option value="30">30代</option>
+                    <option value="40">40代</option>
+                    <option value="50">50代</option>
+                    <option value="other">その他</option>
+                </select>
+            </div><br>
+
+            <div class="cnt">
+                <label for="recipe">今後見てみたいレシピ</label>
+                <br><br>
+                <div class="btn">
+                    <label><input type="checkbox" name="recipe" value="japanfood">和食</label>
+                    <label><input type="checkbox" name="recipe" value="chinafood">中華</label>
+                    <label><input type="checkbox" name="recipe" value="westernfood">洋食</label>
+                    <label><input type="checkbox" name="recipe" value="italianfood">イタリアン</label>
+                    <label><input type="checkbox" name="recipe" value="sweets">スイーツ</label>
+                    <label><input type="checkbox" name="recipe" value="others">その他</label>
+                </div>
+            </div><br>
+
+            <div class="cnt">
+                <label for="free">自由コメント欄</label>
+                <br><br>
+                <textarea id="free" name="free" rows="5" cols="50">自由に意見を記述してください</textarea>
+            </div>
+
+            <div class="cnt">
+                <button type="submit">送信</button>
+                <button type="reset">取り消し</button>
+            </div>
+        </div>
+    </body>
+
+</html>
